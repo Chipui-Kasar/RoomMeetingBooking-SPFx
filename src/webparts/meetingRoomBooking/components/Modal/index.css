@@ -1,0 +1,14 @@
+.ms-Toggle {
+  margin: 0 !important;
+}
+/* .ms-Spinner-circle {
+  border-color: white !important;
+} */
+.ms-Spinner-circle {
+  width: 30px !important;
+  height: 30px !important;
+}
+.ms-Spinner-label {
+  color: white !important;
+  font-size: 16px !important;
+}

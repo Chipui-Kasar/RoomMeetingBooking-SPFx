@@ -1,0 +1,38 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.meetingRoomBooking {
+  font-size: 16px;
+  width: 100%;
+  .container {
+    padding: 20px;
+    border: 1px solid #8080802b;
+    h3 {
+      margin-top: 0;
+    }
+    .event_Item {
+      cursor: pointer;
+      margin-bottom: 10px;
+      padding: 15px;
+      border: 1px solid #8080802b;
+      .event_Item_Header {
+        display: flex;
+        justify-content: space-between;
+        .event_Item_Header_Title {
+          font-weight: bold;
+        }
+        .event_Item_Header_Time {
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+      .event_Item_Body {
+        .event_Item_Body_Location {
+          display: flex;
+          justify-content: space-between;
+
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

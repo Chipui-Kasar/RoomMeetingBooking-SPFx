@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d3943c29-0406-4f07-bae0-d0d0e7c7764b",
+  "alias": "MeetingRoomBookingWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+      "group": { "default": "Other" },
+      "title": { "default": "MeetingRoomBooking" },
+      "description": { "default": "MeetingRoomBooking description" },
+      "iconImageUrl": "data:image/png;base64,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",
+      "properties": {
+        "description": "MeetingRoomBooking"
+      }
+    }
+  ]
+}

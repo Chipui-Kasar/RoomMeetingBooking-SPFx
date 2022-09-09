@@ -1,0 +1,63 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+.addEventContainer {
+  .openModalBtn {
+    background: #fff;
+    border: 3px solid;
+    border-color: "[theme: themePrimary]";
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background: "[theme: themePrimary]";
+      color: #fff;
+    }
+  }
+}
+.comboItem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.saveItem,
+.deleteItem {
+  background: #fff;
+  border: 3px solid;
+  border-color: "[theme: themePrimary]";
+  padding: 6px 10px;
+  border-radius: 5px;
+  // cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: "[theme: themePrimary]";
+    color: #fff;
+  }
+}
+.accessDeniedMsg {
+  color: #fff;
+  font-size: 18px;
+}
+.accessDeniedBtn {
+  color: #fff;
+  background: "[theme: themePrimary]";
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+.Spinner {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  z-index: 999;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  align-items: center;
+  justify-content: center;
+  .label- {
+    color: white !important;
+  }
+}
